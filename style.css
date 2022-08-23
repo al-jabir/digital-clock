@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/w1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.dark {
+  margin: 20% auto;
+  width: 500px;
+  padding: 30px;
+  background-color: #4ccae3;
+  border-radius: 10px;
+  box-shadow: 5px 10px 25px #c327f1;
+}
+.dark .display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: rgb(7, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+.dark #time {
+  font-size: 50px;
+  background: linear-gradient(to right, #f14b27, #c327f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+small {
+  font-size: 50px;
+  color: tomato;
+  padding-left: 5px;
+  font-family: 400;
+}
